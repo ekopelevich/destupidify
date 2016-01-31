@@ -68,7 +68,7 @@ destupidify.destupidifyAffirmativeVal('nope'); //false
 ```js
 var debunk = require('debunk');
 var destupidify = require('destupidify');
-destupidify.destupidifyAffirmativeVal(debunk.doesItEqualThree(1+9)); //false
+destupidify.destupidifyNegativeVal(debunk.doesItEqualThree(1+9)); //false
 ```
 
 ## 4 - Why DeStupidify
