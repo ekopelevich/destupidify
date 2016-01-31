@@ -58,7 +58,7 @@ destupidify.destupidifyAffirmativeVal('I guess'); //true
 
 ```js
 var destupidify = require('destupidify');
-destupidify.destupidifyAffirmativeVal('nope'); //false
+destupidify.destupidifyNegativeVal('nope'); //false
 ```
 
 <a name="example4"></a>
