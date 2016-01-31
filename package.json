@@ -1,0 +1,14 @@
+{
+  "name": "destupidify",
+  "version": "1.0.0",
+  "description": "changes stupid return values like 'yes' and 'no' to true and false",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "destupidify"
+  ],
+  "author": "Elana Kopelevich",
+  "license": "ISC"
+}
