@@ -16,5 +16,10 @@ module.exports = {
         return false;
       }
     }
+  },
+  isThisShitStupid: function(input) {
+    var string = String(input);
+    return this.destupidifyAffirmativeVal(string) !== undefined
+    || this.destupidifyNegativeVal(string) !== undefined;
   }
 };
