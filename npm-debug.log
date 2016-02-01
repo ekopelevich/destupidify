@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.5.1
+3 info using node@v5.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/elanakopelevich/workspace/practice/n-p-m_modules/destupidify',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/elanakopelevich/.npm/destupidify/1.0.1/package.tgz not in flight; packing
+9 info lifecycle destupidify@1.0.1~prepublish: destupidify@1.0.1
+10 silly lifecycle destupidify@1.0.1~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/elanakopelevich/.npm/destupidify/1.0.1/package.tgz',
+11 verbose tar pack   '/Users/elanakopelevich/workspace/practice/n-p-m_modules/destupidify' ]
+12 verbose tarball /Users/elanakopelevich/.npm/destupidify/1.0.1/package.tgz
+13 verbose folder /Users/elanakopelevich/workspace/practice/n-p-m_modules/destupidify
+14 verbose addLocalTarball adding from inside cache /Users/elanakopelevich/.npm/destupidify/1.0.1/package.tgz
+15 silly cache afterAdd destupidify@1.0.1
+16 verbose afterAdd /Users/elanakopelevich/.npm/destupidify/1.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /Users/elanakopelevich/.npm/destupidify/1.0.1/package/package.json written
+18 silly publish { name: 'destupidify',
+18 silly publish   version: '1.0.1',
+18 silly publish   description: 'changes stupid return values like \'yes\' and \'no\' to true and false',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+18 silly publish   keywords: [ 'destupidify' ],
+18 silly publish   author: { name: 'Elana Kopelevich' },
+18 silly publish   license: 'ISC',
+18 silly publish   readme: '# DeStupidify\n\n1  [Synopsis](#synopsis)  \n2  [Installation](#installation)  \n3  [Examples](#examples)  \n3.1  [Example 1](#example1)  \n3.2  [Example 2](#example2)  \n3.3  [Example 3](#example3)  \n3.4  [Example 4](#example4)   \n4  [Why DeStupidify](#whydestupidify)  \n5  [Contributions](#contributions)  \n6  [License](#license)  \n\n<a name="synopsis"></a>\n\n## 1 - Synopsis\nHave you ever come across a really stupid function that returns "yes" or "no" instead of a useful value like true or false. Who does that?!?! In a recent contribution to [DeBunk](https://www.npmjs.com/package/debunk), a highly performant, state-of-the-art 3 and/or 17 verifier, _somebody_ created some functions that return really stupid values.\n\nLuckily with _DeStupidify_, you don\'t have to worry about stupid return values anymore! Simply run your functions through this life-changing module and get significantly less stupid values to work with!\n\n<a name="installation"></a>\n\n## 2 - Installation\n\nYou can install _Destupidify_ with *npm*:\n\n```bash\nnpm install destupidify\n```\n\n<a name="examples"></a>\n\n## 3 - Examples\n\nHere are some examples of how to use DeStupidify.\n\n<a name="example1"></a>\n\n### 3.1 - Example 1\n\n```js\nvar destupidify = require(\'destupidify\');\ndestupidify.destupidifyAffirmativeVal(\'YEAH\'); //true\n```\n\n<a name="example2"></a>\n\n### 3.2 - Example 2\n\n```js\nvar destupidify = require(\'destupidify\');\ndestupidify.destupidifyAffirmativeVal(\'I guess\'); //true\n```\n\n<a name="example3"></a>\n\n### 3.3 - Example 3\n\n```js\nvar destupidify = require(\'destupidify\');\ndestupidify.destupidifyNegativeVal(\'nope\'); //false\n```\n\n<a name="example4"></a>\n\n### 3.4 - Example 4\n\n```js\nvar debunk = require(\'debunk\');\nvar destupidify = require(\'destupidify\');\ndestupidify.destupidifyNegativeVal(debunk.doesItEqualThree(1+9)); //false\n```\n\n## 4 - Why DeStupidify\n\nSome functions return really stupid values.\n\n<a name="contributions"></a>\n\n## 6 - Contributions\n_DeStupidify_ is open source. Contribute today at [http://www.github.com/ekopelevich/destupidify](http://www.github.com/ekopelevich/destupidify).\n\n<a name="license"></a>\n\n## 7 - License\n\nISC License\n\n&copy;2016 Elana Kopelevich\n\n<ekopelevich@gmail.com>\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'afc4928312e9046503ca32c4794b71e7301f593e',
+18 silly publish   _id: 'destupidify@1.0.1',
+18 silly publish   _shasum: 'f214ade06ff59239e39d80519cf763997277ba73',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name destupidify
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/destupidify
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/elanakopelevich/.npm/destupidify/1.0.1/package.tgz
+26 verbose request uri https://registry.npmjs.org/destupidify
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 3:53:04 PM
+29 verbose request using bearer token for auth
+30 verbose request id f9eacc4205351e36
+31 http request PUT https://registry.npmjs.org/destupidify
+32 http 403 https://registry.npmjs.org/destupidify
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Sun, 31 Jan 2016 22:53:07 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-ord1732-ORD',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1454280786.091720,VS0,VE1117' }
+34 verbose request invalidating /Users/elanakopelevich/.npm/registry.npmjs.org/destupidify on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : destupidify
+36 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid destupidify
+39 verbose cwd /Users/elanakopelevich/workspace/practice/n-p-m_modules/destupidify
+40 error Darwin 15.3.0
+41 error argv "/usr/local/Cellar/node/5.0.0/bin/node" "/usr/local/bin/npm" "publish"
+42 error node v5.0.0
+43 error npm  v3.5.1
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.1." : destupidify
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
