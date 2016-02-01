@@ -7,6 +7,7 @@
 3.2  [Example 2](#example2)  
 3.3  [Example 3](#example3)  
 3.4  [Example 4](#example4)   
+3.4  [Example 5](#example5)   
 4  [Why DeStupidify](#whydestupidify)  
 5  [Contributions](#contributions)  
 6  [License](#license)  
@@ -69,6 +70,18 @@ destupidify.destupidifyNegativeVal('nope'); //false
 var debunk = require('debunk');
 var destupidify = require('destupidify');
 destupidify.destupidifyNegativeVal(debunk.doesItEqualThree(1+9)); //false
+// this is deprecated, debunk>=1.2 now proudly uses DeStupidify!
+```
+
+<a name="example5"></a>
+
+### 3.5 - Example 5
+
+```js
+var destupidify = require('destupidify');
+destupidify.isThisShitStupid('yep'); //true
+destupidify.isThisShitStupid('no fucking way dude'); //true
+destupidify.isThisShitStupid(Math.PI); //false
 ```
 
 ## 4 - Why DeStupidify
